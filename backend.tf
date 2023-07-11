@@ -1,7 +1,7 @@
 terraform {
   backend "s3" {
     bucket = "my-aws-tf-state-buck"
-    key = "automate"
+    key = "AWS_ACCESS_KEY_ID"
     region = "us-east-1"
     dynamodb_table = "my-dynamo-db-table"
   }
